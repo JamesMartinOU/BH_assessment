@@ -8,7 +8,7 @@ You are given:
 - Minute-by-minute Level II data for three stock tickers
 - A trading day broken into \(N = 390\) one-minute intervals
 
-The goal is to compute an allocation vector \(x \in \mathbb{R}^N\) such that \(\sum x_i = S\), minimizing cumulative **slippage** — the difference between execution price and midpoint price.
+The goal is to compute an allocation vector, minimizing cumulative **slippage** — the difference between execution price and midpoint price.
 
 ## 🧠 Approach
 
